@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Chess Training Plan</title>
+<link rel="icon" type="image/x-icon" href="favicon.jpg">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f6f8;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    header {
+        background-color: #1e3d59;
+        color: white;
+        text-align: center;
+        padding: 25px;
+        font-size: 1.5rem;
+    }
+
+    main {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .day-box {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.2s ease;
+    }
+
+    .day-box:hover {
+        transform: scale(1.03);
+    }
+
+    h2 {
+        color: #1e3d59;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    a {
+        color: #0077cc;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        background-color: #1e3d59;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+        footer {
+            position: relative;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>7-Day Chess Training Plan</header>
+
+<main>
+    <div class="day-box">
+        <h2>Day 1 – Foundation</h2>
+        <p><b>Goal:</b> Warm-up, set a baseline, and learn basic tactical themes.</p>
+        <ul>
+            <li><a href="https://lichess.org/training">Lichess.org</a> → Do 20 puzzles (accuracy > speed).</li>
+            <li>Watch <a href="https://lichess.org/learn#/1">Hanging Pieces & Forks tutorial</a> on Lichess Learn.</li>
+            <li>Play 2 rapid games (10+0) on <a href="https://lichess.org">Lichess</a> — review mistakes using analysis board.</li>
+        </ul>
+    </div>
+
+    <div class="day-box">
+        <h2>Day 2 – Pins & Skewers</h2>
+        <p><b>Goal:</b> Recognize attacking lines and overloaded pieces.</p>
+        <ul>
+            <li><a href="https://lichess.org/training/streak">Lichess Puzzle Streak</a> — aim for 10 correct in a row.</li>
+            <li>Study <a href="https://www.chessable.com">Pins & Skewers</a> at Chessable Free Tactics Course.</li>
+            <li>Play 1 blitz (5+0) & 1 rapid (10+0) — identify missed tactical shots after.</li>
+        </ul>
+    </div>
+
+    <div class="day-box">
+        <h2>Day 3 – Double Attacks & Discovered Attacks</h2>
+        <p><b>Goal:</b> See multiple threats at once.</p>
+        <ul>
+            <li><a href="https://lichess.org/training/double_attack">Lichess puzzles</a> with "double attack" filter.</li>
+            <li>Watch <a href="https://www.youtube.com/results?search_query=Hanging+Pawns+discovered+attack">Discovered Attack lesson</a> on YouTube.</li>
+            <li>Play 2 blitz games (5+0) — focus on spotting discovered checks.</li>
+        </ul>
+    </div>
+
+    <div class="day-box">
+        <h2>Day 4 – Checkmates in 1–3</h2>
+        <p><b>Goal:</b> Build quick calculation speed.</p>
+        <ul>
+            <li><a href="https://lichess.org/training/storm">Puzzle Storm</a> (3 mins) — repeat 3 times, beat your score.</li>
+            <li>Practice <a href="https://www.chess.com/drills/checkmate">Checkmate Patterns</a> on Chess.com.</li>
+            <li>Play 1 rapid game (15+10) — after each move, ask: “Do I have mate threats?”</li>
+        </ul>
+    </div>
+
+    <div class="day-box">
+        <h2>Day 5 – Strategic Thinking</h2>
+        <p><b>Goal:</b> Go beyond tactics into plans.</p>
+        <ul>
+            <li>Read <a href="#">"How to Think in Chess" basics</a> (PDF summary online).</li>
+            <li>Watch <a href="https://lichess.org/video">Strategic Concepts</a> on Lichess.</li>
+            <li>Play 1 long game (30+0) — think about pawn structure, activity, king safety.</li>
+        </ul>
+    </div>
+
+    <div class="day-box">
+        <h2>Day 6 – Endgame Tactics</h2>
+        <p><b>Goal:</b> Learn key winning techniques when fewer pieces remain.</p>
+        <ul>
+            <li><a href="https://lichess.org/practice">Lichess Endgame Training</a> (rook vs pawn, K+P vs K).</li>
+            <li>Chessable → <a href="https://www.chessable.com/checkmate-patterns-manual-free/course/20173/">Checkmate Patterns Manual</a> first chapters.</li>
+            <li>Play 2 blitz games — deliberately trade into won endgames.</li>
+        </ul>
+    </div>
+
+    <div class="day-box">
+        <h2>Day 7 – Mixed Test Day</h2>
+        <p><b>Goal:</b> Apply everything learned.</p>
+        <ul>
+            <li><a href="https://lichess.org/racer">Puzzle Racer</a> — 5 rounds.</li>
+            <li>Play 3 games (blitz & rapid) — apply at least one tactic per game.</li>
+            <li>Review all games — note recurring mistakes.</li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    Tip: Keep a notebook with you and write 1 thing you learned each day. After 7 days, you'll have your own mini strategy guide.
+</footer>
+
+</body>
+</html>
